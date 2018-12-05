@@ -1,0 +1,11 @@
+pip freeze > requirements.txt
+
+pip install -r requirements.txt
+
+python -m pip install --upgrade pip
+
+python manage.py runserver
+
+python manage.py runserver 0.0.0.0:8000
+
+ALLOWED_HOSTS = ['198.211.99.20', 'localhost', '127.0.0.1']
